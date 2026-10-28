@@ -23,7 +23,7 @@
 | Project | What it does | Stack |
 | --- | --- | --- |
 | **[Waypoint](https://github.com/GerardoAmaya/waypoint)** | Conversational trip planner for El Salvador. The model turns a sentence into constraints, a deterministic engine enforces them: 25 of 26 benchmark cases satisfy every hard constraint, with zero invented places across 321 generated stops. | FastAPI · PostGIS · Claude · Next.js |
-| **[DocuFlow](https://github.com/GerardoAmaya/docu-flow)** ([demo](https://docu-flow-nine-xi.vercel.app)) | Turns scanned invoices into accounting data with per-field confidence. 93.3% accuracy when it answers, 1.7% silent failures, 0.0045 USD per document. Anything below the threshold goes to human review instead of into the database. | FastAPI · pgvector · Celery · Claude · Next.js |
+| **[DocuFlow](https://github.com/GerardoAmaya/docu-flow)** | Turns scanned invoices into accounting data with per-field confidence. 93.3% accuracy when it answers, 1.7% silent failures, 0.0045 USD per document. Anything below the threshold goes to human review instead of into the database. | FastAPI · pgvector · Celery · Claude · Next.js |
 | **[NestJS AI Pentest Skill](https://github.com/GerardoAmaya/nestjs-ai-pentest-skill)** | A Claude skill that maps a NestJS project's security surface and generates a Jest suite tagged with OWASP Top 10 and API Security Top 10, plus a single auditable HTML report. | Claude · NestJS · Jest · OWASP |
 | **[Real Estate Lead Management](https://github.com/GerardoAmaya/real-estate-lead-management)** | Lead tracking module whose metrics dashboard resolves in one `$facet` aggregation instead of six round trips, with layered validation at the API and in the database. | Angular · Node.js · MongoDB · Playwright |
 
@@ -65,9 +65,3 @@ More, with the full write-ups, at [gerardoamayacv.netlify.app](https://gerardoam
 ![RAG](https://img.shields.io/badge/LLM_%26_RAG-A78BFA?style=flat-square)
 ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
 
----
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=GerardoAmaya&show_icons=true&hide_border=true&bg_color=0b0a0f&title_color=a78bfa&icon_color=a78bfa&text_color=c9c7d1" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=GerardoAmaya&layout=compact&langs_count=8&hide_border=true&bg_color=0b0a0f&title_color=a78bfa&text_color=c9c7d1" alt="Top languages" />
-</p>
